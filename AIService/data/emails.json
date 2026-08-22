@@ -1,0 +1,306 @@
+[
+  {
+    "id": "email_001",
+    "sender": "ap@northstarlogistics.com",
+    "subject": "Fwd: Aug transport inv",
+    "body": "Hi team, forwarding the invoice from our accounts dept. Inv NS-4821 for USD 3,840 is attached for the August freight services. Pls process when possible.\n\nRegards,\nMeera\nAccounts Payable"
+  },
+  {
+    "id": "email_002",
+    "sender": "billing@cloudmatrix.io",
+    "subject": "Invoice CM-9017 - August cloud usage",
+    "body": "Hello Finance, attached is our invoice CM-9017 for the August cloud hosting charges, total EUR 1,975. Please confirm once it has been logged."
+  },
+  {
+    "id": "email_003",
+    "sender": "accounts@brightdesk.co",
+    "subject": "pls process invoice",
+    "body": "Hi, pls find attached inv BD-7712 for office support services. Total amt INR 86,400. Let me know if anything else is required."
+  },
+  {
+    "id": "email_004",
+    "sender": "vendor.billing@vertexsystems.com",
+    "subject": "September services - billing",
+    "body": "Good morning. We are submitting the attached invoice VS-3308 for the software maintenance work completed last month. Amount due: $5,620. Thanks."
+  },
+  {
+    "id": "email_005",
+    "sender": "finance@greenfieldconsulting.com",
+    "subject": "Invoice attached / PO 77821",
+    "body": "Hi Finance Team, invoice GF-1189 is attached against PO 77821. Kindly upload it into your system. The invoice total is USD 4,250."
+  },
+  {
+    "id": "email_006",
+    "sender": "billing@rapidprint.net",
+    "subject": "Re: printing charges",
+    "body": "As discussed, sending the final bill for the brochures and banners delivered last week. Invoice RP-5510, total INR 42,750, is attached. Please process."
+  },
+  {
+    "id": "email_007",
+    "sender": "accounts@zenithsecurity.com",
+    "subject": "Monthly invoice - security services",
+    "body": "Dear Team, attached please find invoice ZS-6402 for September security monitoring services. Amount payable is $2,180. Kindly acknowledge receipt."
+  },
+  {
+    "id": "email_008",
+    "sender": "vendor@bluewaveanalytics.com",
+    "subject": "FW: billing document",
+    "body": "Forwarding the document we spoke about. It is invoice BW-2044 for the analytics project, 7,850 EUR. Sorry, forgot to send this yesterday."
+  },
+  {
+    "id": "email_009",
+    "sender": "ap@metrooffice.in",
+    "subject": "Inv no MO-9921",
+    "body": "Please find attached our invoice MO-9921 for September facility management. Amount is INR 1,12,000. Pls log and process."
+  },
+  {
+    "id": "email_010",
+    "sender": "billing@orbitmedia.com",
+    "subject": "September invoice - campaign services",
+    "body": "Hi, submitting invoice OM-7301 for the September marketing campaign. Total $6,400. The supporting document is attached. Please confirm receipt."
+  },
+
+  {
+    "id": "email_011",
+    "sender": "payments@acme-retail.com",
+    "subject": "still waiting on INV-4418",
+    "body": "Hi, just checking again on INV-4418. It was due last Friday and we still don't see the payment in our account. Any update from finance?"
+  },
+  {
+    "id": "email_012",
+    "sender": "accounts@silverline.com",
+    "subject": "Payment status pls",
+    "body": "Hello, can you pls check status of invoice SL-2088? We were told payment was being processed but nothing has arrived yet."
+  },
+  {
+    "id": "email_013",
+    "sender": "vendor@devsource.io",
+    "subject": "RE: invoice DS-774",
+    "body": "Hi, following up on the below. Has payment for DS-774 been released? The due date passed 4 days ago. Please advise expected payment date."
+  },
+  {
+    "id": "email_014",
+    "sender": "finance@harborfoods.com",
+    "subject": "payment not received",
+    "body": "We haven't received the payment for our September invoice. Could you check with your accounts team and let us know when it will be credited?"
+  },
+  {
+    "id": "email_015",
+    "sender": "billing@pixelworks.com",
+    "subject": "Any update on payment?",
+    "body": "Hi team, just wanted to see if PW-5530 has been approved and paid. We are reconciling our books and the amount isn't showing yet."
+  },
+  {
+    "id": "email_016",
+    "sender": "accounts@easterntraders.com",
+    "subject": "INV-9811 - overdue",
+    "body": "Good afternoon, invoice INV-9811 is now overdue. Can you confirm whether payment has been scheduled and share the expected settlement date?"
+  },
+  {
+    "id": "email_017",
+    "sender": "supplier@novatek.com",
+    "subject": "checking remittance",
+    "body": "Can someone confirm if the remittance for NT-1207 went out? Our bank statement doesn't show it yet. Thanks."
+  },
+  {
+    "id": "email_018",
+    "sender": "billing@urbanworks.org",
+    "subject": "Payment ETA for invoice",
+    "body": "Could you let us know when we should expect payment against the latest invoice? We need an ETA for our cash-flow planning."
+  },
+  {
+    "id": "email_019",
+    "sender": "ap@dataserve.net",
+    "subject": "INV 6688 payment",
+    "body": "Hi, any idea when invoice 6688 will be cleared? We submitted it last month and haven't heard anything."
+  },
+  {
+    "id": "email_020",
+    "sender": "vendor@atlasengineering.com",
+    "subject": "Payment confirmation required",
+    "body": "Please confirm whether the payment for AE-4430 has been initiated. If already processed, kindly share the remittance reference."
+  },
+
+  {
+    "id": "email_021",
+    "sender": "finance@retailplus.com",
+    "subject": "URGENT - wrong amount on invoice",
+    "body": "Hi, this invoice shows $4,800 but our approved PO was only $3,800. Please review this immediately and correct the billing."
+  },
+  {
+    "id": "email_022",
+    "sender": "accounts@mediasource.io",
+    "subject": "Re: MS-771 billing",
+    "body": "We need to dispute the additional $650 charge on MS-771. Those services were not requested by our team. Please investigate."
+  },
+  {
+    "id": "email_023",
+    "sender": "customer@buildright.com",
+    "subject": "charged twice",
+    "body": "Hi, looks like we have been billed twice for the same installation. One charge is on 14 Sep and another on 15 Sep. Can you check and reverse the duplicate?"
+  },
+  {
+    "id": "email_024",
+    "sender": "finance@oakconsulting.com",
+    "subject": "Tax amount doesn't match",
+    "body": "The tax on invoice OC-4401 is calculated at 18%, but our contract specifies 12%. We cannot approve the current amount. Please issue a corrected invoice."
+  },
+  {
+    "id": "email_025",
+    "sender": "accounts@freshmart.com",
+    "subject": "Dispute - unexpected service fee",
+    "body": "We noticed a service fee of INR 7,500 that wasn't part of our agreement. Please explain this charge and remove it if it was added in error."
+  },
+  {
+    "id": "email_026",
+    "sender": "client@infotechlabs.com",
+    "subject": "This amount is not correct",
+    "body": "Your latest bill is higher than what we agreed. Contract says $2,000/month but the invoice is for $2,750. Kindly investigate."
+  },
+  {
+    "id": "email_027",
+    "sender": "billing@greenenergy.com",
+    "subject": "Unrecognized charge on account",
+    "body": "We don't recognize the $1,140 charge dated September 17. Nobody from our team authorized this. Please investigate the transaction."
+  },
+  {
+    "id": "email_028",
+    "sender": "accounts@westbridge.com",
+    "subject": "Incorrect line items in INV-882",
+    "body": "Two items on INV-882 were never delivered, but we have been charged for them. Please remove those line items and send a revised invoice."
+  },
+  {
+    "id": "email_029",
+    "sender": "finance@redstone.co",
+    "subject": "Invoice discrepancy",
+    "body": "Our PO total is EUR 9,200 while the invoice received is EUR 10,100. There is a difference we cannot reconcile. Please check."
+  },
+  {
+    "id": "email_030",
+    "sender": "customer@primeworks.com",
+    "subject": "Not happy with latest billing",
+    "body": "We were promised the old subscription rate, but the latest invoice uses the new price without notice. We want this charge reviewed and corrected."
+  },
+
+  {
+    "id": "email_031",
+    "sender": "prize.claim@randommail.biz",
+    "subject": "URGENT!!! YOU WON $2,000,000",
+    "body": "Congratulations! Your email was selected for a cash prize. Send your bank account details and pay a small processing fee to release the funds."
+  },
+  {
+    "id": "email_032",
+    "sender": "billing@secure-payments-check.com",
+    "subject": "Invoice overdue - pay immediately",
+    "body": "FINAL NOTICE. Your account will be suspended unless you pay within 2 hours. Open the attached payment link and enter your card information."
+  },
+  {
+    "id": "email_033",
+    "sender": "security@micr0soft-support.net",
+    "subject": "Your Microsoft account will be closed",
+    "body": "We detected unusual activity. Verify your password immediately using the link below or your account will be deleted today."
+  },
+  {
+    "id": "email_034",
+    "sender": "offers@mega-deals.biz",
+    "subject": "90% OFF - today only",
+    "body": "Exclusive business offer! Buy software licenses at 90% discount. Click here now before the offer expires. No credit card? No problem!"
+  },
+  {
+    "id": "email_035",
+    "sender": "accounts@unknown-vendor.co",
+    "subject": "Payment required - INV-9988",
+    "body": "Please urgently pay the attached invoice using the cryptocurrency wallet below. Failure to pay within 30 minutes will result in legal action."
+  },
+  {
+    "id": "email_036",
+    "sender": "wealth@instantreturns.net",
+    "subject": "Double your money in 24 hours",
+    "body": "Invest just $100 today and receive $10,000 tomorrow. Guaranteed returns. Send your wallet address to get started."
+  },
+  {
+    "id": "email_037",
+    "sender": "reward@global-prize.com",
+    "subject": "Final prize notification",
+    "body": "You have won an international shopping reward. To claim it, confirm your date of birth, bank details and a $25 verification fee."
+  },
+  {
+    "id": "email_038",
+    "sender": "admin@account-security-alert.xyz",
+    "subject": "Action required: verify account",
+    "body": "Your mailbox will be disabled today. Please click the verification link and enter your username and password to keep access."
+  },
+  {
+    "id": "email_039",
+    "sender": "marketing@freegift-now.com",
+    "subject": "FREE GIFT FOR YOUR COMPANY",
+    "body": "You have been selected for a free business gift. Confirm your payment card information to cover the $1 shipping fee."
+  },
+  {
+    "id": "email_040",
+    "sender": "ceo@company-security-alert.com",
+    "subject": "Urgent confidential payment",
+    "body": "I am currently unavailable. Purchase five gift cards immediately and send me the codes. This is confidential and must be done now."
+  },
+
+  {
+    "id": "email_041",
+    "sender": "vendor@example.com",
+    "subject": "Transaction question",
+    "body": "Hi, can you check what is happening with our recent transaction? We need some clarification. Thanks."
+  },
+  {
+    "id": "email_042",
+    "sender": "client@example.com",
+    "subject": "Re: account",
+    "body": "Something seems off with our account. Can someone from finance have a look? I'm not sure exactly what changed."
+  },
+  {
+    "id": "email_043",
+    "sender": "partner@example.com",
+    "subject": "Please check this",
+    "body": "We noticed something unusual in our recent financial activity. Could you review it and let us know?"
+  },
+  {
+    "id": "email_044",
+    "sender": "customer@example.com",
+    "subject": "Need help with latest records",
+    "body": "Hi team, our latest records don't look right. I can't tell if this is related to billing or payment. Please have someone check."
+  },
+  {
+    "id": "email_045",
+    "sender": "vendor@example.com",
+    "subject": "Quick question",
+    "body": "Could you take a look at our account and let us know if everything is okay? There is a number that doesn't look familiar."
+  },
+  {
+    "id": "email_046",
+    "sender": "client@business.com",
+    "subject": "Recent transaction",
+    "body": "There is something we would like you to check regarding a recent transaction. It might be an invoice issue, but we're not sure."
+  },
+  {
+    "id": "email_047",
+    "sender": "supplier@company.com",
+    "subject": "Finance question",
+    "body": "We have a question about something recently recorded on our account. Could someone review it? I don't have the reference number with me."
+  },
+  {
+    "id": "email_048",
+    "sender": "partner@services.com",
+    "subject": "pls review",
+    "body": "Hi, pls check our latest account activity. Something seems different from before but I don't know what. Let me know."
+  },
+  {
+    "id": "email_049",
+    "sender": "customer@enterprise.com",
+    "subject": "Issue with recent records",
+    "body": "Our recent financial records don't seem correct. We are not sure whether a payment is missing or a charge is wrong. Could you investigate?"
+  },
+  {
+    "id": "email_050",
+    "sender": "vendor@operations.com",
+    "subject": "Clarification needed",
+    "body": "Could someone clarify the status of our recent account activity? We don't have enough information to understand what happened. Please advise."
+  }
+]
