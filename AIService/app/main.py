@@ -21,6 +21,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "https://frontend-inan-grhk29e5i-saisri548s-projects.vercel.app",
         "https://frontend-plum-delta-41.vercel.app",
+        "https://email-agent-beige-mu.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
