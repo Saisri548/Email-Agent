@@ -1,0 +1,484 @@
+============================================================
+             AUTONOMOUS EMAIL AGENT
+                  API DOCUMENTATION
+============================================================
+
+1. PROJECT INFORMATION
+------------------------------------------------------------
+
+Project Name:
+Autonomous Email Agent
+
+Description:
+An AI-powered email processing system that analyzes incoming
+emails, identifies relevant intents and disputes, performs
+automated actions, and maintains an audit trail.
+
+Backend:
+FastAPI
+
+Database:
+SQLite
+
+AI / Agent Layer:
+LangGraph / AI Agent Workflow
+
+Deployment:
+Render
+
+
+============================================================
+2. BASE URL
+============================================================
+
+LOCAL:
+
+http://localhost:8000
+
+PRODUCTION:
+
+https://email-agent-tr1t.onrender.com
+
+
+============================================================
+3. API DOCUMENTATION
+============================================================
+
+FastAPI automatically provides interactive API documentation.
+
+Swagger UI:
+
+/docs
+
+Example:
+
+http://localhost:8000/docs
+
+
+ReDoc:
+
+/redoc
+
+Example:
+
+http://localhost:8000/redoc
+
+
+OpenAPI Specification:
+
+/openapi.json
+
+
+============================================================
+4. SYSTEM / HEALTH APIs
+============================================================
+
+
+------------------------------------------------------------
+GET /
+------------------------------------------------------------
+
+Purpose:
+
+Checks whether the Email Agent service is running.
+
+Method:
+
+GET
+
+Endpoint:
+
+/
+
+Expected Response:
+
+HTTP 200 OK
+
+
+------------------------------------------------------------
+GET /health
+------------------------------------------------------------
+
+Purpose:
+
+Health-check endpoint used to verify that the backend
+service is operational.
+
+Method:
+
+GET
+
+Endpoint:
+
+/health
+
+Expected Response:
+
+HTTP 200 OK
+
+Example:
+
+{
+    "status": "healthy"
+}
+
+
+============================================================
+5. EMAIL APIs
+============================================================
+
+
+------------------------------------------------------------
+POST /emails
+------------------------------------------------------------
+
+Purpose:
+
+Receives and processes an incoming email.
+
+The email is passed through the Email Agent workflow for
+analysis and automated processing.
+
+Method:
+
+POST
+
+Endpoint:
+
+/emails
+
+Request Content-Type:
+
+application/json
+
+
+Example Request:
+
+{
+    "sender": "customer@example.com",
+    "subject": "Issue with my order",
+    "body": "I received the wrong product."
+}
+
+
+Processing Flow:
+
+Incoming Email
+      |
+      v
+Email API
+      |
+      v
+Email Agent
+      |
+      v
+Intent / Email Analysis
+      |
+      v
+Action Decision
+      |
+      v
+Database / Audit
+
+
+------------------------------------------------------------
+GET /emails
+------------------------------------------------------------
+
+Purpose:
+
+Retrieves emails stored in the database.
+
+Method:
+
+GET
+
+Endpoint:
+
+/emails
+
+
+Example Response:
+
+[
+    {
+        "id": 1,
+        "sender": "customer@example.com",
+        "subject": "Issue with my order",
+        "body": "I received the wrong product."
+    }
+]
+
+
+------------------------------------------------------------
+GET /emails/{id}
+------------------------------------------------------------
+
+Purpose:
+
+Retrieves a specific email using its ID.
+
+Method:
+
+GET
+
+Endpoint:
+
+/emails/{id}
+
+
+Example:
+
+GET /emails/1
+
+
+============================================================
+6. DISPUTE APIs
+============================================================
+
+
+------------------------------------------------------------
+POST /disputes
+------------------------------------------------------------
+
+Purpose:
+
+Creates or processes a dispute associated with an email.
+
+Method:
+
+POST
+
+Endpoint:
+
+/disputes
+
+Example Request:
+
+{
+    "email_id": 1,
+    "reason": "Wrong product received",
+    "description": "Customer received a different product."
+}
+
+
+------------------------------------------------------------
+GET /disputes
+------------------------------------------------------------
+
+Purpose:
+
+Retrieves disputes stored in the database.
+
+Method:
+
+GET
+
+Endpoint:
+
+/disputes
+
+
+Example Response:
+
+[
+    {
+        "id": 1,
+        "email_id": 1,
+        "reason": "Wrong product received",
+        "status": "open"
+    }
+]
+
+
+------------------------------------------------------------
+GET /disputes/{id}
+------------------------------------------------------------
+
+Purpose:
+
+Retrieves a specific dispute.
+
+Method:
+
+GET
+
+Endpoint:
+
+/disputes/{id}
+
+
+============================================================
+7. AUDIT APIs
+============================================================
+
+
+------------------------------------------------------------
+GET /audit
+------------------------------------------------------------
+
+Purpose:
+
+Retrieves audit records generated during Email Agent
+processing.
+
+Audit records provide traceability of actions performed
+by the system.
+
+Method:
+
+GET
+
+Endpoint:
+
+/audit
+
+
+Example Response:
+
+[
+    {
+        "id": 1,
+        "action": "email_processed",
+        "status": "success"
+    }
+]
+
+
+------------------------------------------------------------
+GET /audit/{id}
+------------------------------------------------------------
+
+Purpose:
+
+Retrieves a specific audit record.
+
+Method:
+
+GET
+
+Endpoint:
+
+/audit/{id}
+
+
+============================================================
+8. HTTP STATUS CODES
+============================================================
+
+200 OK
+
+Request completed successfully.
+
+
+201 Created
+
+A new resource was created successfully.
+
+
+400 Bad Request
+
+The request contains invalid data.
+
+
+404 Not Found
+
+The requested resource does not exist.
+
+
+422 Unprocessable Entity
+
+The request failed validation.
+
+
+500 Internal Server Error
+
+An unexpected server-side error occurred.
+
+
+============================================================
+9. API WORKFLOW
+============================================================
+
+1. Client sends an email request.
+
+2. Backend receives the request.
+
+3. Email Agent analyzes the email.
+
+4. The system determines the email intent.
+
+5. If required, the system identifies a dispute.
+
+6. Agent decides the appropriate action.
+
+7. Email/dispute information is stored in the database.
+
+8. The performed action is recorded in the audit table.
+
+9. The API returns the result to the client.
+
+
+============================================================
+10. API SECURITY
+============================================================
+
+Sensitive configuration values must be stored using
+environment variables.
+
+Examples:
+
+API Keys
+Database configuration
+LLM credentials
+Email credentials
+Authentication secrets
+
+Secrets should never be committed to GitHub.
+
+
+============================================================
+11. DEPLOYMENT
+============================================================
+
+Production platform:
+
+Render
+
+Production URL:
+
+https://email-agent-tr1t.onrender.com
+
+The backend exposes HTTP APIs that can be consumed by
+the frontend application.
+
+
+============================================================
+12. API TESTING
+============================================================
+
+APIs can be tested using:
+
+1. Swagger UI
+2. ReDoc
+3. Postman
+4. curl
+5. Frontend application
+
+
+Swagger:
+
+/docs
+
+ReDoc:
+
+/redoc
+
+OpenAPI:
+
+/openapi.json
+
+
+============================================================
+END OF API DOCUMENTATION
+============================================================
