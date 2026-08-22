@@ -9,12 +9,10 @@ from app.graph import email_agent
 from app.state import EmailState
 
 
-app = FastAPI(
-    title="Autonomous Email Agent API",
-    description="AI-powered email classification, extraction, action and audit system",
-    version="1.0.0"
-)
 
+
+
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
@@ -22,12 +20,14 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://frontend-inan-grhk29e5i-saisri548s-projects.vercel.app",
-        "https://frontend-plum-delta-41.vercel.app"
+        "https://frontend-plum-delta-41.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
 
 
 # ============================================================
